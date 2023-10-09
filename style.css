@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400&family=Dancing+Script:wght@500&family=Roboto+Condensed&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Roboto Condensed;
+}
+body{
+    background-color: rgb(206, 205, 205);
+}
+.top{
+    width: 90% !important;
+    height: 350px !important;
+}
+.card-body p{
+    width: 85%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.button-1 {
+    width: 130px;
+    height: 50px;
+}
+.button-1 p{
+    width: 85%;
+    font-size: 16px !important;
+}
+.bottom{
+    margin-left: px;
+    margin-top: 55px;
+}
+.button-2 {
+    width: 100px;
+    height: 40px;
+}
+.button-2 p{
+    width: 85%;
+    font-size: 12px !important;
+}
+.row{
+    margin: 0;
+    display: flex;
+}
+img{
+    margin-left: 13px;
+}
+@media screen and (max-width:600px) {
+    img{
+        width: 100% !important;
+    }
+    .bottom{
+        width: 400px !important;
+    }
+    .top{
+        height: 817px !important;
+    }
+    .big-img{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .top-img{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
